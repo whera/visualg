@@ -34,10 +34,28 @@ prod[2].valor <- "20.00"
 prod[2].qtd   <- 200
 
 // indice 3
-prod[1].cod   <- 333
-prod[1].nome  <- "Monitor"
-prod[1].valor <- "30.00"
-prod[1].qtd   <- 300
+prod[3].cod   <- 333
+prod[3].nome  <- "Monitor"
+prod[3].valor <- "30.00"
+prod[3].qtd   <- 300
+
+
+//==== IMPRIMINDO VALORES NA TELA ====\\
+
+// Exibindo valores do indice 1
+escreval("Código do produto: ", prod[1].cod)
+escreval("Nome do produto: ", prod[1].nome)
+escreval("Valor do produto: ", prod[1].valor)
+escreval("Quantidade do produto: ", prod[3].qtd)
+
+// ========== Será mostrado na tela as seguintes informações ========== \\
+//
+// Código do produto: 111
+// Nome do produto: Teclado
+// Valor do produto: 50.00
+// Quantidade do produto: 100
+//
+// ========== FIM ==========\\
 
 
 
